@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mnuSearch"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:showAsAction="ifRoom|withText"
+
+        />
+    <item
+        android:id="@+id/mnuAboutUs"
+        android:title="About us"
+        app:showAsAction="always"
+
+        />
+    <group android:id="@+id/mnuGroupTechnology">
+        <item
+            android:id="@+id/mnuAndroid"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Android"
+
+            />
+        <item
+            android:id="@+id/mnuJava"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Java"
+
+            />
+        <item
+            android:id="@+id/mnuJ2ee"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="J2ee"
+
+            />
+    </group>
+
+
+</menu>
